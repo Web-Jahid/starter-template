@@ -1,0 +1,110 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:  Template
+    Template URL: 
+    Description: 
+    Author: 
+    Author URL: 
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+   CSS INDEX
+    ===================
+
+    01. Theme default CSS	
+    02. Header CSS	
+    03. Footer CSS
+
+-----------------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+*:focus {
+  color: inherit;
+  outline: inherit;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+a,
+button {
+  color: inherit;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px !important;
+}
+
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */

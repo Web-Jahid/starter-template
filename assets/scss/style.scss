@@ -1,0 +1,32 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:  Template
+    Template URL: 
+    Description: 
+    Author: 
+    Author URL: 
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+   CSS INDEX
+    ===================
+
+    01. Theme default CSS	
+    02. Header CSS	
+    03. Footer CSS
+
+-----------------------------------------------------------------------------------*/
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+@import 'variables';
+@import 'mixins';
+@import 'common';
+
+// Section
+
+
+//Responsive
+@import 'responsive';

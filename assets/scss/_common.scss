@@ -1,0 +1,97 @@
+// Theme Default CSS Starts Here
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $font;
+}
+
+*:focus {
+	color: inherit;
+	outline: inherit;
+}
+
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+a,
+button {
+	color: inherit;
+	outline: none;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+	border: 0
+}
+
+// Typography Starts Here
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0px !important;
+}
+
+
+// Typography Ends Here  
+
+ol,
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+// Common Classes Starts Here
+.fix {
+	overflow: hidden
+}
+
+.clear {
+	clear: both;
+}
+
+.p-relative {
+	position: relative;
+}
+
+.p-absolute {
+	position: absolute;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+// Common Classes Ends Here
+// Theme Default CSS Ends Here

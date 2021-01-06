@@ -1,0 +1,22 @@
+// Font Family Starts Here
+//  Roboto Font
+$font: 'Roboto', sans-serif;
+// Font Family Ends Here
+
+// Color Starts Here
+// Primary Color
+$primary: #ffffff;
+
+// Secondary Color
+$secondary: #ffffff;
+
+// Tertiary Color
+$tertiary: #ffffff;
+// Color Ends Here
+
+// Responsive Variables
+$lg : 'only screen and (min-width: 992px) and (max-width: 1169px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: 'only screen and (min-width: 575px) and (max-width: 767px)';
+$xs: 'only screen and (min-width: 420px) and (max-width: 574px)';
+$xsm:'(max-width: 420px)';
