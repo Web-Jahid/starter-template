@@ -4,14 +4,11 @@ $font: 'Roboto', sans-serif;
 // Font Family Ends Here
 
 // Color Starts Here
-// Primary Color
-$primary: #ffffff;
-
-// Secondary Color
-$secondary: #ffffff;
-
-// Tertiary Color
-$tertiary: #ffffff;
+$color: (
+    "primary": #ffffff,
+    "secondary": #ffffff,
+    "tertiary": #ffffff
+);
 // Color Ends Here
 
 // Responsive Variables
